@@ -26,7 +26,7 @@ plugins:
 
 author:
   name   : "Damien Tan"
-  avatar : ""
+  avatar : "/assets/images/bio-photo.jpeg"
   bio    : "Hey there!"
   links:
     - label: "GitHub"
@@ -43,8 +43,6 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: "_pages"
@@ -60,6 +58,8 @@ tag_archive:
   type: liquid
   path: /tags/
 
+# utterances
+repository: "dtjldamien/dtjldamien.github.io"
 comments:
   provider: "utterances"
   utterances:
